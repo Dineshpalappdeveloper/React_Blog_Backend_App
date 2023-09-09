@@ -1,0 +1,252 @@
+.footer-parent * {
+    background-color: rgb(1, 1, 1);
+    color: white;
+    box-sizing: border-box;
+}
+
+.footerContainner {
+    display: flex;
+    width: 98.8%;
+    position: relative;
+    z-index: 7;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+
+.footerContainner>div {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    /* background-color: aliceblue; */
+    color: white;
+    width: 25%;
+    padding: 10px;
+}
+
+.about {
+    align-self: flex-start;
+    margin-left: -1px;
+}
+
+.footerHr {
+    width: 80px;
+    height: 2px;
+    /* margin-top: -50px; */
+    /* margin-bottom: -50px; */
+    margin-left: -1px;
+    align-self: flex-start;
+    background-color: rgb(18, 7, 234);
+    color: blue;
+
+}
+
+.links1 {
+    display: inline;
+    margin-top: 5px;
+}
+
+.footerHr1 {
+    width: 80px;
+    height: 2px;
+}
+
+.displayFt {
+    background-color: rgb(18, 17, 17);
+    box-sizing: border-box;
+    padding: 3px;
+
+    margin-top: 5px;
+    display: none;
+    justify-content: space-around;
+}
+
+.displayFt>img {
+    background-color: black;
+    display: none;
+
+}
+
+footerLogo {
+    /* background-color: aliceblue; */
+}
+
+.displayFt>img {}
+
+.question {
+    width: 200px;
+    background-color: bisque;
+    height: 40px;
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+    /* margin-right: 0px; */
+    margin: 5px 0px 5px 80px;
+}
+
+.qsend {
+    padding: 5px;
+    background-color: aqua;
+    color: brown;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid pink;
+    margin: 5px 5px 5px 135px;
+    width: 100px;
+    height: 40px;
+}
+
+.qsend:hover {
+    box-shadow: 5px 5px 5px snow;
+}
+
+.question:focus {
+    border: 4px solid gold;
+
+}
+
+@media (min-width:270px) and (max-width:580px) {
+    .footerContainner {
+        display: flex;
+        width: 99%;
+        position: relative;
+        z-index: 7;
+        margin-left: 20px;
+        /* background-color: black; */
+        flex-direction: column;
+        color: white;
+        box-sizing: border-box;
+        /* background-color: aqua; */
+    }
+
+    .footerContainner>div {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footerContainner {
+        margin: 2px;
+    }
+.blo-des{
+    font-size: 15px;
+}
+    .about {
+        margin: 0px;
+    }
+        .blo-des{
+box-sizing: border-box;
+padding: 5px;
+        }
+}
+@media (min-width:700px) and (max-width:1300px) {
+    *{
+        box-sizing: border-box;
+    }
+    .footer-parent * {
+            background-color: rgb(1, 1, 1);
+            color: white;
+            box-sizing: border-box;
+        }
+    
+        .footerContainner {
+            display: flex;
+            width: 98.8%;
+            position: relative;
+            z-index: 7;
+            margin-left: 20px;
+            background-color: black;
+            color: white;
+        }
+    
+        .footerContainner>div {
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            /* background-color: aliceblue; */
+            color: white;
+            width: 25%;
+            padding: 10px;
+        }
+    
+        .about {
+            align-self: flex-start;
+            margin-left: -1px;
+        }
+    
+        .footerHr {
+            width: 80px;
+            height: 2px;
+            /* margin-top: -50px; */
+            /* margin-bottom: -50px; */
+            margin-left: -1px;
+            align-self: flex-start;
+            background-color: rgb(18, 7, 234);
+            color: blue;
+    
+        }
+    
+        .links1 {
+            display: inline;
+            margin-top: 5px;
+        }
+    
+        .footerHr1 {
+            width: 80px;
+            height: 2px;
+        }
+    
+        .displayFt {
+            background-color: rgb(18, 17, 17);
+            box-sizing: border-box;
+            padding: 3px;
+    
+            margin-top: 5px;
+            display: none;
+            justify-content: space-around;
+        }
+    
+        .displayFt>img {
+            background-color: black;
+            display: none;
+    
+        }
+    
+        footerLogo {
+            /* background-color: aliceblue; */
+        }
+    
+        .displayFt>img {}
+    
+        .question {
+            width: 200px;
+            background-color: bisque;
+            height: 40px;
+            color: black;
+            font-weight: 800;
+            font-size: 24px;
+            /* margin-right: 0px; */
+            margin: 5px 0px 5px 80px;
+        }
+    
+        .qsend {
+            padding: 5px;
+            background-color: aqua;
+            color: brown;
+            font-size: 20px;
+            border-radius: 5px;
+            border: 2px solid pink;
+            margin: 5px 5px 5px 135px;
+            width: 100px;
+            height: 40px;
+        }
+    
+        .qsend:hover {
+            box-shadow: 5px 5px 5px snow;
+        }
+    
+        .question:focus {
+            border: 4px solid gold;
+    
+        }
+}

@@ -1,0 +1,146 @@
+.Food-parent{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+    padding: 28px 15%;
+    height: 500px;
+
+    padding-left: 100px;
+
+display: flex;
+justify-content: space-between;
+}
+.TechFooter {
+  margin-top: 1150px;
+  width: 100.7%;
+  margin-left: 1px;
+  background-color: black;
+}
+
+.TechFooter * {
+  color: rgb(245, 250, 254) !important;
+}
+
+.BollyFooter {
+  margin-top: 1150px;
+  width: 100.7%;
+  margin-left: 1px;
+  background-color: black;
+}
+
+.BollyFooter * {
+  color: rgb(245, 250, 254) !important;
+}
+.HollyFooter {
+  margin-top: 1150px;
+  width: 100.7%;
+  margin-left: 1px;
+  background-color: black;
+}
+
+.HollyFooter * {
+  color: rgb(245, 250, 254) !important;
+}
+
+.BiharFooter {
+  margin-top: 2000px;
+  width: 100.7%;
+  margin-left: 1px;
+  background-color: black;
+}
+
+.BiharFooter * {
+  color: rgb(245, 250, 254) !important;
+}
+.FFooter {
+  margin-top: 1100px;
+  width: 100.7%;
+  margin-left: 1px;
+  background-color: black;
+}
+
+.FFooter * {
+  color: rgb(245, 250, 254) !important;
+}
+.Food-containeer{
+    width: 75%;
+    box-sizing: border-box;
+ 
+}
+.food-top-post-containeer{
+    width: 39%;
+  
+
+}
+.the-latest-food-parent{
+    padding: 28px 15%;
+    display: flex;
+    box-sizing: border-box;
+
+}
+.latest-food1{
+margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+.Food-hr{
+    width: 250%;
+}
+.advatige-Food{
+ 
+    height: 590px;
+ 
+    border: 2px solid red;
+}
+
+@media (min-width:270px) and (max-width:580px) {
+    .Food-parent{
+        flex-direction: column;
+        width: 350px;
+        margin: 10px;
+        box-sizing: border-box;
+    
+    }
+    .FFooter{
+      margin-top: 3220px;
+    }
+.BiharFooter {
+  margin-top: 5100px;
+}
+.HollyFooter {
+  margin-top: 3250px;
+}
+
+.BollyFooter {
+  margin-top: 3250px;
+}
+.TechFooter {
+  margin-top: 3250px;
+}
+.Food-containeer{
+        width: 350px;
+      margin-left: -100px;
+      margin-top: -50px;
+        padding: 0px;
+       margin-bottom: 50px;
+        box-sizing: border-box;
+    }
+  .Food-hr{
+    width: 250px;
+  }
+  .articles-one{
+    margin: 2px;
+  }.article-image-details-parent{
+    margin: 2px;
+    height: 480px;
+  }
+  .food-tops{
+    margin-top: 2080px;
+      margin-left: -50px;
+  }
+     .bihar-top{
+  margin-top: 4000px;
+    margin-left: -50px;
+     }     
+}
