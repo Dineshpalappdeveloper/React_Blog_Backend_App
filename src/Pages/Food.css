@@ -10,6 +10,13 @@
 display: flex;
 justify-content: space-between;
 }
+
+ .homePageload {
+   color: red;
+   /* margin-top: 47vh; */
+   left: 40vw;
+   /* position: fixed; */
+ }
 .TechFooter {
   margin-top: 1150px;
   width: 100.7%;
@@ -102,6 +109,12 @@ margin: 0px;
         box-sizing: border-box;
     
     }
+        .homePageload {
+          color: red;
+          /* margin-top: 47vh; */
+          left: 30vw;
+          /* position: fixed; */
+        }
     .FFooter{
       margin-top: 3220px;
     }

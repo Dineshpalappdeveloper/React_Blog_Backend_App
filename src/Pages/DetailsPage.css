@@ -12,7 +12,12 @@
   margin-bottom: 5px;
 }
 
-
+.homePageload {
+  color: red;
+  /* margin-top: 47vh; */
+  left: 40vw;
+  /* position: fixed; */
+}
 
 .backWeb:hover {
   box-shadow: 0px 5px 4px red;
@@ -222,6 +227,12 @@ display: inline-block;
   * {
     box-sizing: border-box;
   }
+    .homePageload {
+      color: red;
+      /* margin-top: 47vh; */
+      left: 35vw;
+      /* position: fixed; */
+    }
 .header2Parent {
       width: 100%;
         align-items: center;
