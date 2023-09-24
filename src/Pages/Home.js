@@ -89,11 +89,11 @@ const Home = (props) => {
           </div>
 
 
-          <div>
+          <div className='body-section'>
             <h3 className="sub-title">The Latest</h3>
             <hr className="sub-heading-hr" />
             <div className="the-latest-parent">
-              <div className="latest-one">
+              <div className="latest-one  ">
                 {details && details
                   .filter((item) => item.id === 1)
                   .map((data) => {
@@ -192,7 +192,7 @@ const Home = (props) => {
                                 <img
                                   src={data.img}
                                   alt="not found"
-                                  className={"latest-card1"}
+                                  className={"latest-card1 latest_art1"}
                                 />
                               </div>
                               <div className="article-image-details">
@@ -226,7 +226,7 @@ const Home = (props) => {
                                 <img
                                   src={data.img}
                                   alt="not found"
-                                  className={"latest-card1"}
+                                  className={"latest-card1 latest_art1"}
                                 />
                               </div>
                               <div className="article-image-details">
@@ -259,7 +259,7 @@ const Home = (props) => {
                                 <img
                                   src={data.img}
                                   alt="not found"
-                                  className={"latest-card1"}
+                                  className={"latest-card1 latest_art1"}
                                 />
                               </div>
                               <div className="article-image-details">
@@ -292,7 +292,7 @@ const Home = (props) => {
                                 <img
                                   src={data.img}
                                   alt="not found"
-                                  className={"latest-card1"}
+                                  className={"latest-card1 latest_art1"}
                                 />
                               </div>
                               <div className="article-image-details">
@@ -524,7 +524,7 @@ const Home = (props) => {
                 <div className="latest-one story1">
 
                   {details && details
-                    .filter((item) => item.id === 20)
+                    .filter((item) => item.id === 22)
                     .map((data) => {
                       return (
                         <>

@@ -190,7 +190,7 @@ const Fitness = () => {
 
 
               </div>
-              <div className="advatige advatige-Food">
+              <div className="advatige advatige-Food theBihar1">
                 <h2 className="advatige-text advatige-text-Food ">advertistment</h2>
               </div>
 

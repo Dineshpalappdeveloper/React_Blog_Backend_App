@@ -316,6 +316,7 @@ display: inline-block;
     box-sizing: border-box;
   
   }
+
   .more-serin{
     background-color: white;
   }
@@ -392,4 +393,71 @@ box-shadow: 0px 5px 4px red;
 text-shadow: 2px 2px gray;
 
   }
+}
+@media (min-width: 700px) and (max-width: 1280px) {
+.details-parent{
+padding-top: 322px;}
+.header2Parent{
+  /* margin-bottom: 400px; */
+  margin-left: 100px;
+  padding-bottom: 40px;
+}
+.fixed-parent {
+  height: 70px;
+  width: 180px;
+  position: fixed;
+  top: 60vh;
+  z-index: -100;
+  background-color: white;
+  align-items: center;
+  left: 5%;
+  display: none;
+}
+.details-des{
+  width: 180%;
+}
+    .more-serin {
+      /* background-color: white; */
+      margin-top: 350px;
+      width: 100vw;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .more-heading{
+      margin-left: 0px;
+    
+    }
+    .more-parent{
+      margin-left: -110px;
+    }
+    .more-one{
+      margin: 0px;
+      width: 100px;
+    }
+    .more-siren-ipad{
+          width: 220px;
+            padding: 1px;
+            margin-left: 40px;
+    }
+    .related{
+      margin-left: -70px;
+    }
+    .more-main-title{
+      font-size: 15px;
+    }
+    .smallcard-persion-img{
+      height: 32px;
+      width: 32px;
+    }
+    .more-dev{
+      padding-left: 60px;
+    }
+    .footer-parent{
+
+margin-left: -10px;
+
+    }
+    .heading{
+      margin-top: 100px;
+    }
 }

@@ -146,7 +146,7 @@ const DetailsPage = () => {
                               <img
                                 src={data.img}
                                 alt="not found"
-                                className={"latest-card1"}
+                                className={"latest-card1 more-siren-ipad"}
                                 onClick={() => {
                                   idHandler();
                                 }}

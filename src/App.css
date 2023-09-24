@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   justify-content: center;
+  box-sizing: border-box;
+  width: 98.7vw;
+  overflow-x: hidden;
 }
 *{
   font-style: italic;
