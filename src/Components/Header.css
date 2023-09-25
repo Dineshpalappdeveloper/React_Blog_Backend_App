@@ -149,6 +149,21 @@ h1 {
      font-size: 16px;
      color: red;
  }
+ .siren {
+     font-size: 25px;
+     color: rgb(192, 10, 10);
+
+ }
+ .subHeader{
+    /* background-color: rgb(49, 116, 175); */
+    margin-top: -5px;
+ }
+ .the{
+    font-size: 20px;
+ }
+ .header-nav{
+    margin-top: -30px;
+ }
  P{
 margin-bottom: 5px;
  }

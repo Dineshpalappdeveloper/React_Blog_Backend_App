@@ -14,10 +14,10 @@ const Header = () => {
         <NavLink to="/">
 
 
-          <div className='main_header'>
+          <div className='main_header subHeader'>
 
 
-            <p>The</p>
+            <p className="the">The</p>
             <h1 className='siren'>Siren</h1>
           </div>
 
