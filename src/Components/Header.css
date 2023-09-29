@@ -16,6 +16,7 @@
     justify-content: space-around;
     /* border: 2px solid red; */
 }
+
 .head2{
     margin-top: 10px;
 }
@@ -94,7 +95,9 @@ h1 {
     color: rgb(245, 250, 254)!important; 
 }
 
-
+ .siren {
+     color: red;
+ }
 @media (min-width:270px) and (max-width:580px) {
   .siren{
     font-size: 30px;
@@ -149,6 +152,8 @@ h1 {
      font-size: 16px;
      color: red;
  }
+
+
  .siren {
      font-size: 25px;
      color: rgb(192, 10, 10);
