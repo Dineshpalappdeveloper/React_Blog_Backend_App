@@ -9,7 +9,7 @@ const Hollywood = () => {
   console.log(details);
 
   useEffect(() => {
-    axios.get('https://dinesh-blog-app.onrender.com/bihar')
+    axios.get('https://dinesh-blog-app.onrender.com/Hollywwood')
       .then(response => response.data)
       .then(biharData => {
         console.log(biharData, "bihari bubu")
@@ -121,7 +121,7 @@ const Hollywood = () => {
 
               <div className="latest-one">
                 {details && details
-                  .filter((item) => item.id === 7)
+                  .filter((item) => item.id === 43)
                   .map((data) => {
                     return (
                       <>
@@ -156,7 +156,7 @@ const Hollywood = () => {
               <hr className="top-post-divider3" />
               <div className="latest-one top-post3">
                 {details && details
-                  .filter((item) => item.id === 8)
+                  .filter((item) => item.id === 44)
                   .map((data) => {
                     return (
                       <>

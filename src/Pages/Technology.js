@@ -11,7 +11,7 @@ const Technology = () => {
   console.log(details);
 
   useEffect(() => {
-    axios.get('https://dinesh-blog-app.onrender.com/bihar')
+    axios.get('https://dinesh-blog-app.onrender.com/Tech')
       .then(response => response.data)
       .then(biharData => {
         console.log(biharData, "bihari bubu")

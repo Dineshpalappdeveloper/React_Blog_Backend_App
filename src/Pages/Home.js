@@ -32,7 +32,7 @@ const Home = (props) => {
           <div className="home-first-card-containeer">
             <div className="left-side">
               {details && details
-                .filter((item) => item.id === 1)
+                .filter((item) => item.id === 41)
                 .map((data) => {
                   return (
                     <>
@@ -69,7 +69,7 @@ const Home = (props) => {
                   );
                 })}
               {details && details
-                .filter((item) => item.id === 11)
+                .filter((item) => item.id === 42)
                 .map((data) => {
                   return (
                     <>
@@ -95,7 +95,7 @@ const Home = (props) => {
             <div className="the-latest-parent">
               <div className="latest-one  ">
                 {details && details
-                  .filter((item) => item.id === 1)
+                  .filter((item) => item.id === 41)
                   .map((data) => {
                     return (
                       <>
@@ -147,7 +147,7 @@ const Home = (props) => {
               </div>
               <div className="latest-one">
                 {details && details
-                  .filter((item) => item.id === 11)
+                  .filter((item) => item.id === 42)
                   .map((data) => {
                     return (
                       <>
