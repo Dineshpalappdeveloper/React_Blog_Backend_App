@@ -90,7 +90,7 @@ const Home = (props) => {
 
 
           <div className='body-section'>
-            <h3 className="sub-title">The Latest</h3>
+            <h3 className="sub-title sub-title1">The Latest</h3>
             <hr className="sub-heading-hr" />
             <div className="the-latest-parent">
               <div className="latest-one  ">
@@ -173,15 +173,15 @@ const Home = (props) => {
               </div>
             </div>
 
-            <h3 className="sub-title">Latest Articles</h3>
+            <h3 className="sub-title sub-title1 ">Latest Articles</h3>
             <hr className="sub-heading-hr" />
             <div className="latest-Articles">
               <div className="latest-Articles-parent">
-                <div className="articles-one">
+                <div className="articles-one none1">
                   <hr className="Articles-hr" />
 
                   {details && details
-                    .filter((item) => item.id === 12)
+                    .filter((item) => item.id === 5)
                     .map((data) => {
                       return (
                         <>
