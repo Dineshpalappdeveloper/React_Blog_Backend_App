@@ -104,6 +104,9 @@ margin: 0px;
 .theBihar1{
       height: 1720px;
 }
+.bihartext{
+  margin-top: 900px;
+}
 @media (min-width:270px) and (max-width:580px) {
     .Food-parent{
         flex-direction: column;
