@@ -42,7 +42,7 @@ const Home = (props) => {
                           <img
                             src={data.img}
                             alt="not found"
-                            className={"left-card1"}
+                            className={"left-card1 left-card1Large"}
                           />
                         </NavLink>
                       }
@@ -61,7 +61,7 @@ const Home = (props) => {
                           <img
                             src={data.img}
                             alt="not found"
-                            className={"left-card2"}
+                            className={"left-card2 left-card1Large1"}
                           />
                         </NavLink>
                       }
@@ -78,7 +78,7 @@ const Home = (props) => {
                           <img
                             src={data.img}
                             alt="not found"
-                            className={"left-card3"}
+                            className={"left-card3 left-card1Large1"}
                           />
                         </NavLink>
                       }
@@ -92,7 +92,7 @@ const Home = (props) => {
           <div className='body-section home-super-parent2'>
             <h3 className="sub-title sub-title1">The Latest</h3>
             <hr className="sub-heading-hr" />
-            <div className="the-latest-parent">
+            <div className="the-latest-parent the-latest-parentLarge">
               <div className="latest-one  ">
                 {details && details
                   .filter((item) => item.id === 41)
@@ -176,7 +176,7 @@ const Home = (props) => {
             <h3 className="sub-title sub-title1 ">Latest Articles</h3>
             <hr className="sub-heading-hr" />
             <div className="latest-Articles">
-              <div className="latest-Articles-parent">
+              <div className="latest-Articles-parent latest-Articles-parentLarge ">
                 <div className="articles-one none1">
                   <hr className="Articles-hr" />
 
@@ -313,7 +313,7 @@ const Home = (props) => {
                 </div>
               </div>
 
-              <div className="advatige">
+              <div className="advatige advatigeLarge">
                 <h2 className="advatige-text">advertistment</h2>
               </div>
             </div>
@@ -331,7 +331,7 @@ const Home = (props) => {
                                 <img
                                   src={data.img}
                                   alt="not found"
-                                  className={"top-post-card1"}
+                                  className={"top-post-card1 top-post-card1Large"}
                                 />
                               </NavLink>
                             </div>
