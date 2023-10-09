@@ -92,16 +92,17 @@ margin: 0px;
     box-sizing: border-box;
 }
 .Food-hr{
-    width: 180%;
+    width: 234%;
 }
 .advatige-Food{
  
-    height: 590px;
+    height: 790px;
  
     border: 2px solid red;
+    margin-top: -200px;
 }
 .theBihar1{
-      height: 1500px;
+      height: 1720px;
 }
 @media (min-width:270px) and (max-width:580px) {
     .Food-parent{
