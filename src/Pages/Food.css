@@ -1,3 +1,5 @@
+
+
 .Food-parent{
     box-sizing: border-box;
     width: 100%;
@@ -171,3 +173,23 @@ margin: 0px;
     padding: 28px 1%;
   }
 }
+
+
+
+@media (min-width:1600px) and (max-width:2050px) {
+  .Food-parentLarge{
+    padding: 30px 19.5%;
+    margin-left: -100px;
+  }
+
+  .advatige-text-FoodLarge{
+    margin-top: 150%;
+  }
+
+  .bihartext {
+    margin-top: 350%;
+  }
+} 
+
+
+/* false data */

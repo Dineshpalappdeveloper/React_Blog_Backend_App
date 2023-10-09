@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
   const [count, setCount] = useState(1);
   return (
-    <div className='header-nav'>
+    <div className='header-nav header-nav1'>
       <div className='main_header'>
 
         <NavLink to="/">

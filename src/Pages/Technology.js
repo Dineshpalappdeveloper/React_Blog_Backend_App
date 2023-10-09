@@ -26,7 +26,7 @@ const Technology = () => {
       <Header />
       {
         details == null ? <h1 className='homePageload'>loading...</h1> : <Suspense fallback={<h1>Loading...</h1>}>
-          <div className='Food-parent'>
+          <div className='Food-parent Food-parentLarge'>
             <div className='Food-containeer'>
               <h3 className="sub-title latest-food11">Technology</h3>
               <hr className="sub-heading-hr latest-food11" />
@@ -191,7 +191,7 @@ const Technology = () => {
 
               </div>
               <div className="advatige advatige-Food">
-                <h2 className="advatige-text advatige-text-Food ">advertistment</h2>
+                <h2 className="advatige-text advatige-text-Food advatige-text-FoodLarge">advertistment</h2>
               </div>
 
             </div>

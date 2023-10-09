@@ -26,7 +26,7 @@ const Fitness = () => {
       <Header />
       {
         details == null ? <h1 className='homePageload'>loading...</h1> : <Suspense fallback={<h1>Loading...</h1>}>
-          <div className='Food-parent'>
+          <div className='Food-parent Food-parentLarge'>
             <div className='Food-containeer'>
               <h3 className="sub-title latest-food11">Bihar Tourism</h3>
               <hr className="sub-heading-hr latest-food11" />

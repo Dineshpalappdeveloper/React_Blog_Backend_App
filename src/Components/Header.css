@@ -290,3 +290,9 @@ margin-bottom: 5px;
             color: rgb(245, 250, 254) !important;
         }
 }
+@media (min-width:1600px) and (max-width:2050px) {
+ .header-nav1{
+    margin-top: -70px;
+ }
+
+}

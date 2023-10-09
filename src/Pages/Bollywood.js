@@ -23,7 +23,7 @@ const Bollywood = () => {
     <div>
       <Header />
 
-      <div className='Food-parent'>
+      <div className='Food-parent Food-parentLarge'>
         <div className='Food-containeer'>
           <h3 className="sub-title latest-food11">Bollywood</h3>
           <hr className="sub-heading-hr latest-food11" />
@@ -192,7 +192,7 @@ const Bollywood = () => {
 
 
           </div>
-          <div className="advatige advatige-Food">
+          <div className="advatige advatige-Food advatige-text-FoodLarg" >
             <h2 className="advatige-text advatige-text-Food ">advertistment</h2>
           </div>
 

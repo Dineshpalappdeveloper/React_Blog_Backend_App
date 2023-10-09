@@ -29,7 +29,7 @@ const Home = (props) => {
       {
         // console.log(details, "checking")
         details == null ? <h1 className='homePageload'>loading...</h1> : <Suspense fallback={<h1>Loading...</h1>}>
-          <div className="home-first-card-containeer">
+          <div className="home-first-card-containeer SliderImage ">
             <div className="left-side">
               {details && details
                 .filter((item) => item.id === 41)
@@ -89,7 +89,7 @@ const Home = (props) => {
           </div>
 
 
-          <div className='body-section'>
+          <div className='body-section home-super-parent2'>
             <h3 className="sub-title sub-title1">The Latest</h3>
             <hr className="sub-heading-hr" />
             <div className="the-latest-parent">
@@ -548,7 +548,7 @@ const Home = (props) => {
               <hr className="latest-stories-divider latest-stories-divider-last" />
             </div>
           </div>
-          <diV className="hFooter">
+          <diV className="hFooter home-super-parent2">
             <Footer />
 
           </diV>
