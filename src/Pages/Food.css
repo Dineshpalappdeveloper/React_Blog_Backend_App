@@ -178,7 +178,7 @@ margin: 0px;
 
 @media (min-width:1600px) and (max-width:2050px) {
   .Food-parentLarge{
-    padding: 30px 19.5%;
+    padding: 30px 11.5%;
     margin-left: -100px;
   }
 
@@ -188,6 +188,9 @@ margin: 0px;
 
   .bihartext {
     margin-top: 350%;
+  }
+  .latest-food1{
+    width: 120%;
   }
 } 
 
