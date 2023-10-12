@@ -567,7 +567,7 @@
 
   .Articles-hr {
     height: 2px;
-    width: 80%;
+    width: 42vw;
   }
   .latest_art1 {
     width: 330px;
@@ -600,8 +600,9 @@
 
   .top-post-card1 {
     height: 600px;
-    padding-top: 240px;
+    padding-top: 110px;
     width: 500px;
+    width: 70vw;
   }
 
   .top-post-details-parent {
