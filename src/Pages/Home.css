@@ -567,7 +567,8 @@
 
   .Articles-hr {
     height: 2px;
-    width: 42vw;
+    margin-left: -1px;
+    width: 78vw;
   }
   .latest_art1 {
     width: 330px;
