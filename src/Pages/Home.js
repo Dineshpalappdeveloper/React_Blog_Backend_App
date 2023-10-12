@@ -507,7 +507,7 @@ const Home = (props) => {
 
                               {/* <br/> */}
                               <h3>{data.title}</h3>
-                              <h5>{data.description.slice(0, 150)}...</h5>
+                              <h5>{data.description.slice(0, 160)}...</h5>
                               <h4>
                                 Travel{" "}
                                 <span className="travel-time">/August 21 2023</span>{" "}
