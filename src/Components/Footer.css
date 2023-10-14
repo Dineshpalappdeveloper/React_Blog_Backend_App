@@ -75,7 +75,7 @@ footerLogo {
   font-weight: 800;
   font-size: 24px;
   /* margin-right: 0px; */
-  margin: 5px 0px 5px 80px;
+  margin: 5px 0px 5px 6.8vw;
 }
 
 .qsend {
@@ -85,7 +85,7 @@ footerLogo {
   font-size: 20px;
   border-radius: 5px;
   border: 2px solid pink;
-  margin: 5px 5px 5px 135px;
+  margin: 5px 5px 5px 10vw;
   width: 100px;
   height: 40px;
 }
