@@ -131,6 +131,20 @@ footerLogo {
     box-sizing: border-box;
     padding: 5px;
   }
+
+  .question {
+    width: 200px;
+    background-color: bisque;
+    height: 40px;
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+    /* margin-right: 0px; */
+    margin: 5px 5px 5px 100px;
+  }
+  .qsend {
+    margin: 5px 0px 5px 145px;
+  }
 }
 @media (min-width: 700px) and (max-width: 1300px) {
   * {
